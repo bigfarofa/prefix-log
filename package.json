@@ -1,11 +1,15 @@
 {
   "name": "prefix-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a prefix for each log",
   "main": "index.js",
   "repository": "https://github.com/DREZZ3R/prefix-log.git",
   "author": "Lucas Gomes",
   "license": "MIT",
   "private": false,
-  "keywords": ["log", "logger", "prefix"]
+  "keywords": [
+    "log",
+    "logger",
+    "prefix"
+  ]
 }
