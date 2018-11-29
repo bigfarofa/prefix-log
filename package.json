@@ -1,6 +1,6 @@
 {
   "name": "prefix-log",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds a prefix for each log",
   "main": "index.js",
   "repository": "https://github.com/DREZZ3R/prefix-log.git",
