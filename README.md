@@ -51,4 +51,4 @@ var logger = prefixLog("[LOG ONLY IN DEV] ", {
 logger.log("IT WILL NOT PRINT"); // *it does not print
 logger.error("IT WILL PRINT") // > [LOG ONLY IN DEV] IT WILL PRINT
 ````
-**Every condition is optional.** They are only called if you declare them explicitly.
+**Every condition is optional.**
