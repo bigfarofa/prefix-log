@@ -51,4 +51,15 @@ var logger = prefixLog("[LOG ONLY IN DEV] ", {
 logger.log("IT WILL NOT PRINT"); // *it does not print
 logger.error("IT WILL PRINT") // > [LOG ONLY IN DEV] IT WILL PRINT
 ````
-**Every condition is optional.**
+
+### Force Logging
+If you want to force a log you must execute the `force` method.
+
+````javascript
+// With this logger configuration, the logger will never log. Unless we force it
+var logger = require("prefix-log")("[FORCED TEST]", () => false);
+logger.log("I WILL PULL A SNEAKY ON YA"); // *It does not print
+
+logger.force().log("GOT EM"); // *It does not print
+
+````
