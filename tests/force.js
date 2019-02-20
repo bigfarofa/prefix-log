@@ -3,7 +3,7 @@ logger.log("IT SHOULD NOT PRINT");
 logger.force().log("IT SHOULD PRINT");
 logger.log("IT SHOULD NOT PRINT");
 var logger2 = require("../index")("[PREFIX AS ARG]", {
-  prefixAsArg: false,
+  prefixAsArg: true,
   logWhen: () => false,
   errorWhen: () => false,
   warnWhen: () => false,
